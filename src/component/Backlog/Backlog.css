@@ -1,0 +1,57 @@
+.ListItem.ListItem {
+  text-align: start;
+  padding: 5px;
+  font-size: small;
+  display: flex;
+}
+
+.ListItem:hover {
+  cursor: pointer;
+}
+
+.Operation {
+  margin-left: auto;
+}
+
+.Operation .Round {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.Operation i {
+  margin: 0 10px;
+}
+
+.high {
+  color: red;
+}
+
+.medium {
+  color: #ff6666;
+}
+
+.low {
+  color: #ff9999;
+}
+
+.task_completion {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.task_completed {
+  padding: 0;
+
+  font-size: 20px;
+  background-color: white;
+  color: #4bade8;
+}
+
+.task_pending {
+  padding: 5px;
+
+  background-color: greenyellow;
+  color: white;
+}

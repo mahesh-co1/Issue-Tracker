@@ -1,0 +1,44 @@
+.Container {
+  text-align: "left";
+}
+
+.Tasktitle {
+  text-align: left;
+}
+
+.Button.Button {
+  margin: 5px;
+}
+
+.Functionality__container {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.Functionality__container i {
+  background-color: #f5f6f8;
+  font-size: 20px;
+  padding: 5px;
+  color: grey;
+}
+
+.Todo__Workflow.Todo__Workflow {
+  width: 100px;
+  font-weight: bold;
+  background-color: #ddd;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.Todo__Workflow.Todo__Workflow:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.Description {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
